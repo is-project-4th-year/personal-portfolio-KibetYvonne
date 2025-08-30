@@ -3,7 +3,7 @@ body {
   padding: 0 20px;
   max-width: 900px;
   margin: auto;
-  background: #f4f4f4;
+  background: #e6f7ff;
 }
 
 nav ul {
@@ -23,10 +23,16 @@ nav ul li a {
   color: white;
   padding: 10px 15px;
   display: inline-block;
+  transition: all 0.3s ease;
 }
 
-nav ul li a.active,
+nav ul li a.active{
+  color: #fff;
+  font-weight: bold;
+}
 nav ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
   background-color: #555;
 }
 
@@ -61,3 +67,15 @@ form button {
 form button:hover {
   background-color: #555;
 }
+
+footer {
+  position: fixed;       
+  bottom: 10px;          
+  right: 10px;           
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;       
+}
+
